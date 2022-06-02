@@ -1,0 +1,599 @@
+*{
+    box-sizing: border-box;
+    
+    margin: 0;}
+   
+/* nan bar design start  */
+
+h1{
+    color: #0e0104;
+cursor: pointer;}
+       
+
+ [class*="col-"]{
+   float: left;
+    
+}
+
+[class*="col-"]{
+    width: 100%;
+
+}
+
+.navbar h1{
+    color: azure;
+   
+
+}
+.navbar{
+   
+    text-align: center;
+    background-image: url("image/cool-back.jpg");
+}
+img{
+    width: 150px;
+    height: 250px;
+    border-radius: 100px;
+    margin: 10px;
+    
+}
+p{
+    font-family: 'Satisfy', Impact, -apple-system,  'Segoe UI', Roboto, Oxygen,  Cantarell, ;
+    text-align: justify; 
+    font-size: 1rem;
+   
+}
+
+
+h2{
+font-size: 1.6rem;
+text-align: center;
+text-transform: capitalize;
+color: rgb(240, 235, 238);
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+ .nav-menu a{
+     text-decoration: none;
+     text-transform: capitalize;
+     color: rgb(243, 242, 240);
+     font-weight: bolder;
+     
+    
+     margin: 20px 0;
+ }
+ .nav-menu a:hover{
+     background-color: aqua;
+     border-radius: 50px;
+     color: #1d050a;
+     transition: 0.5s;
+ }
+ .navbar::after{
+     content:'';
+     clear: both;
+     display: table;
+ } 
+/* 
+}
+  /* nav bar design end  */
+
+  /* profile design start  */
+.profile{
+    padding: 150px 10px;
+    
+    position: relative;
+   
+    text-align: center;
+}
+
+.profile .top-icon{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+transition: transform 3s;
+}
+
+.top-icon:hover{
+    transform: rotate(360deg);
+}
+.template h1{
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    
+} 
+.dotted-hr{
+    border: dotted 4px white ;
+    width: 60px;
+    margin: 10px auto;
+    border-bottom: none;
+    
+}
+.template p{
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    color: gray;
+    width: 90%;
+    margin: 0 auto 10px auto;
+    
+} 
+.profile .bottom-icon{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    
+     left: 40px;
+    bottom: 20px;
+    
+transition: transform 3s;
+}
+
+.bottom-icon:hover{
+    transform: rotate(360deg);
+}
+ 
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+  /* profile design end  */
+
+  /* about me start  */
+  .about-me{
+      background-color: #39a4ac;
+      color:antiquewhite;
+      padding: 1% 7%;
+      background: url("image/cool-back.jpg");
+  }
+
+
+.about-me::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.image img{
+    border: rgb(94, 139, 252) solid;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 8px 0 2px 33%;
+} 
+.about-description p{
+   
+    font-family: cursive;
+font-size: 1.5rem;
+margin: 20px 0 20px 0;
+text-align: center;}
+.about-description p a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.about-description p a:hover{
+color: rgb(252, 90, 217);
+}
+.btn{
+    background-color: #1d050a;
+    color: antiquewhite;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+   /* about me end */
+
+
+   /* professional section start  */
+
+.pro-section{
+    padding: 1% 0;
+}
+/* work experience card style start */
+.work-card{
+    background-color: antiquewhite;
+   
+    margin: 15px ;
+    border-radius: 2%;
+    
+    height: 700px;
+    transition: 0.4s;
+    
+}
+
+.work-card:hover{
+    box-shadow: 0px 4px 8px 5px ;
+}
+.icon{
+    text-align: center;
+   
+}
+
+.icon img{
+    border: solid white 5px;
+    padding: 4px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+.header{
+    background-color: rgb(226, 136, 26);
+    color: rgb(243, 247, 250);
+    margin-top: 5px;
+}
+.card-desc ul li{
+    list-style-type:none;
+
+}
+.card-desc ul li{
+    padding: 10px;
+
+
+}
+#call{
+    list-style-image: url("image/call-center-agent.png");
+     list-style-position: inside;
+}
+
+#retail{
+    list-style-image: url("image/male-clothes.png");
+     list-style-position: inside;
+}
+
+ .card-desc hr{
+     border: solid rgb(49, 113, 209) 1px;
+     width: 300px;
+    
+}
+#car{
+    list-style-image: url("image/deal.png");
+     list-style-position: inside;
+}
+#mobile{
+    list-style-image: url("image/smartphone.png");
+     list-style-position: inside;
+}
+#cash{
+    list-style-image: url("image/accounting.png");
+     list-style-position: inside;
+}
+#it{
+    list-style-image: url("image/technical-support.png");
+    
+     list-style-position: inside;
+     
+}
+
+
+
+/* work experience card style end */
+
+
+/* education section start */
+.edu-card{
+    background-color: antiquewhite;
+   
+    margin: 25px 15px 15px 15px;
+    border-radius: 2%;
+    height: 700px;
+    transition: 0.4s;
+    
+}
+
+.edu-card:hover{
+    box-shadow: 0px 4px 8px 5px;
+}
+
+
+
+.card-desc2 ul li{
+    list-style-type:none;
+
+}
+.card-desc2 ul li{
+    padding: 30px;
+
+
+}
+#madhyamik{
+    list-style-image: url("image/schl.jpg");
+    
+     list-style-position: inside;}
+
+     #uchho-madhyamik{
+        list-style-image: url("image/schl.jpg");
+        
+         list-style-position: inside;}
+     
+         #hs{
+            list-style-image: url("image/scl.jpg");
+            
+             list-style-position: inside;}
+
+             #clg{
+                list-style-image: url("image/clg.jpg");
+                
+                 list-style-position: inside;}
+                 
+                 .line{
+                    border: solid rgb(177, 49, 209) 1px;}
+
+
+
+
+                   
+                  /* education section end */ 
+                   
+               /* skill part start */
+    
+               .skill-card{
+                background-color: antiquewhite;
+               
+                margin: 20px 18px 18px 18px;
+                border-radius: 2%;
+                height: 700px;
+                transition: 0.4s;
+                padding-right: 15px;
+                
+            }
+            
+            .skill-card:hover{
+                box-shadow: 0px 4px 8px 5px;
+            }
+            
+            
+            
+            .card-desc3 ul li{
+                list-style-type:none;
+            
+            }
+            .card-desc3 ul li{
+                padding: 40px;
+            font-weight: bolder;
+            }
+            .card-desc3 ul li{
+                position: relative;
+            }
+
+
+            .card-desc3 ul li::before{
+                content: '';
+                position: absolute;
+                top:80%;
+                left: 0%;
+
+
+
+
+                background-color:rgb(151, 169, 247) ;
+        width: 100%;
+        height: 25px;
+        border-radius: 1000px;
+            }
+
+            .card-desc3 ul li::after{
+                content: '';
+                position: absolute;
+                top:80% ;
+                left: 0%;
+
+
+
+
+                background-color:rgb(227, 229, 238) ;
+        width: 0;
+        height: 25px;
+        border-radius: 1000px;
+
+
+
+
+
+        animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: forward;
+            }
+            .card-desc3 ul li.html::after{
+                animation-name:html;
+    
+            }
+    @keyframes html {
+        to {
+            width: 70%;
+            background-color:red;
+        }
+        
+    }
+
+
+    .card-desc3 ul li.css::after{
+        animation-name:css;
+
+    }
+@keyframes css {
+to {
+    width: 77%;
+    background-color:rgb(166, 255, 0)
+}
+
+}
+
+
+.card-desc3 ul li.c::after{
+    animation-name:c;
+
+}
+@keyframes c {
+to {
+width: 57%;
+background-color:rgb(0, 238, 255);
+}
+
+}
+.card-desc3 ul li.java::after{
+    animation-name:java;
+
+}
+@keyframes java {
+to {
+width: 57%;
+background-color:orange;
+
+}
+}
+
+.card-desc3 ul li.git::after{
+    animation-name:git;
+
+}
+@keyframes git {
+to {
+width: 67%;
+background-color: rgb(214, 15, 91);
+
+}
+
+/* skill part end */
+}
+.pro-section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* professional section end  */
+
+/* achivement-contact section start  */
+
+
+/* Achievement section start  */
+.achievement-contact{
+    padding: 1% 7%;
+    background-image: url(image/cool-back.jpg);
+    
+}
+
+.achievement{
+
+margin: 10px;
+background-image: url("image/cool-back.jpg");
+
+}
+
+.achievement ol li{
+    color: rgb(247, 242, 245);
+    width: 90%;
+    padding: 20px;
+    font-weight: bolder ;
+    font-family: sans-serif;
+
+}
+.achievement h2{
+    color: rgb(245, 241, 243);
+    margin-top: 10px;
+}
+
+
+/* Achivement section end  */
+
+/* contact section start here   */
+
+ .contact{
+    
+    padding: 1% 7%;
+    margin: 10px;
+  
+   background-image: url("image/cool-back.jpg");
+   
+}
+
+.contact input, textarea {
+
+    font-size: 1.rem;
+   
+    width: 100%;
+    resize: none;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact button{
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    background-color: darkolivegreen;
+    padding: 10px;
+    margin: 10px;
+font-weight: bolder;
+}
+.contact h2{
+    color: rgb(245, 241, 243);
+}
+
+/* contact section end  */
+
+.contact-link{
+    background-image: url("image/cool-back.jpg");
+    text-align: center;
+    margin: 10px;
+    padding: 2% 5%;
+}
+.media-btn{
+    text-align: center;
+    font-size: 2rem;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 26px;
+}  
+.media-btn:hover{
+    background-color: gray;
+}
+
+
+ .achievement-contact::after{
+    content: '';
+    display: table;
+    clear: both;}  
+
+
+    .footer{
+background-color: black;
+color: antiquewhite;
+height: 100px;
+margin-top: 10px;
+
+    }
+.footer p{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+    .span{
+        font-size: 0.8rem;
+    }
+    #copy{
+        color: red;
+    }
+
+    .roni{
+        color: #023e8a;
+    }
+    .t{
+        color: red;
+    }

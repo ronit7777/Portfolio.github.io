@@ -1,0 +1,172 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* nav design start */
+.nav-logo img{
+    text-align: left;
+    margin: 45px 0 5px 0;
+}
+
+.nav-heading h1{
+    text-align: right;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 140px 8px;
+}
+.nav-menu{
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: right;
+    
+    
+}
+.nav-menu a{
+    margin: 150px 10px;
+    padding: 10px;
+}
+/* nav dsign end  */
+
+/* profile design start  */
+.profile .top-icon{
+     right: 90px;
+    top: 20px;
+    }
+    .profile .bottom-icon{
+        left: 90px;
+       bottom: 20px;
+       }
+       .template p{
+        text-transform: capitalize;
+        padding: 10px;
+        font-family: 'Satisfy', cursive;
+        color: gray;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .profile{
+        padding: 250px 10px;}
+        
+
+
+/* profile design end  */
+
+/* about me start  */
+
+.about-description p{
+    text-align: left;
+}
+.image img{
+   
+width: 300px;
+    height: 400px;
+   
+}
+/* about me end */
+
+/* professional part start  */
+
+
+.work-card{
+    width: 400px;
+   
+    margin: 10px 5px 8px 14px  ;
+    
+    height:700px;
+    padding: 20px;
+    
+    
+    
+}
+
+
+
+
+
+/* education part start  */
+.edu-card{
+   
+    margin: 10px 5px 8px 5px;
+    
+    height:700px;
+    padding: 20px;
+    width: 400px;
+    
+}
+.card-desc2 ul li{
+    padding: 20px;
+    }
+
+/* education part end  */
+
+
+.skill-card{
+    margin: 10px 5px 8px 5px;
+    width: 400px;
+height: 700px;
+padding: 20px;
+}
+
+.card-desc3 ul li{
+    padding: 30px;
+    }
+
+/* professional part end  */
+
+
+/* Achivement section start  */
+
+.achievement-contact{
+    padding: 1%;
+}
+.achievement{
+    margin: 10px;
+    padding: 30px;
+    width: 350px;
+}
+.achievement  ol li{
+    padding: 10px;
+}
+/* Achivement section end  */
+
+
+/* contact section start here   */
+.contact button{
+width: 80px;
+}
+.contact{
+    margin:  10px;;
+    padding: 20px;
+    width: 350;
+    
+}
+
+/* contact section start here   */
+
+
+.contact-link{
+    margin: 10px;
+    width: 350px;
+    height: 400px;
+
+    
+    
+}
+
+
+.contact-link button{
+
+    margin: 10;
+
+
+
+}
